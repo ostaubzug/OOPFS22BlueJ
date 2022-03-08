@@ -10,18 +10,18 @@ public class Temparatur
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private float temparatureCelsius;
 
-    public Temparatur(double input)
+    public Temparatur(float input)
     {
         // Instanzvariable initialisieren
-        temparatureCelsius = (float)input;
+        temparatureCelsius = input;
     }
         public Temparatur()
     {
     }
 
-        public void setTemparatureCelsius(double input)
+        public void setTemparatureCelsius(float input)
     {
-        temparatureCelsius = (float)input;
+        temparatureCelsius = input;
     }
 
     public float getTemparatureCelsius()
@@ -38,12 +38,12 @@ public class Temparatur
         return temparatureCelsius * 1.8f + 32f;
     }
     
-    public void increaseTemparatureKelvin(double input){
-        temparatureCelsius += (float)input;
+    public void increaseTemparatureKelvin(float input){
+        temparatureCelsius += input;
     }
     
-    public void decreaseTemparatureKelvin(double input){
-        temparatureCelsius -= (float)input;
+    public void decreaseTemparatureKelvin(float input){
+        temparatureCelsius -= input;
     }
 
 }

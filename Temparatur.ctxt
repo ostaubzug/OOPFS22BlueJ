@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Temparatur
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Temparatur.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=input
+comment1.target=Temparatur(double)
+comment2.params=
+comment2.target=Temparatur()
+comment3.params=input
+comment3.target=void\ setTemparatureCelsius(double)
+comment4.params=
+comment4.target=float\ getTemparatureCelsius()
+comment5.params=
+comment5.target=float\ getTemparatureKelvin()
+comment6.params=
+comment6.target=float\ getTemparatureFahrenheit()
+comment7.params=input
+comment7.target=void\ increaseTemparatureKelvin(double)
+comment8.params=input
+comment8.target=void\ decreaseTemparatureKelvin(double)
+numComments=9
